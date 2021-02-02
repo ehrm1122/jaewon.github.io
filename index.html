@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="jaewon's Portfolio">
+  <meta nmae="author" content="Leejaewon">
+  <script src="https://kit.fontawesome.com/c188363de0.js" crossorigin="anonymous" defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="imgs/png" href="imgs/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <i class="fas fa-user-tie"></i>
+      <a href="#">Jaewon</a>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item active" data-type="#home">Home</li>
+      <li class="navbar__menu__item" data-type="#about">About</li>
+      <li class="navbar__menu__item" data-type="#skills">Skills</li>
+      <li class="navbar__menu__item" data-type="#project">Project</li>
+      <li class="navbar__menu__item" data-type="#contact">Contact</li>
+    </ul>
+
+    <!-- Toogle button  -->
+    <button class="navbar__toogle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- home -->
+  <section id="home">
+    <div class="home__container">
+      <img src="imgs/jaewon2.jpg" alt="Jaewon image" class="home__avatar">
+      <h1 class="home__title">Portfolio</h1>
+      <h2 class="home__description">신입 개발자 <div class="name">이재원</div>입니다.</h2>
+      <button class="home__contact">CONTACT ME</button>
+    </div>  
+  </section>
+
+  <!-- about -->
+  <section id="about" class="section section__container">
+      <h1>About me</h1>
+      <fieldset class="profile__wrap">
+        <legend align="left"><h2 class="profile__title">My profile🧑🏻</h2></legend>
+        <img src="imgs/jaewon.JPG" alt="Jaewon Image" class="profile__avatar">
+        <div class="profile">
+          <div class="profile__contents">
+            <h3 class="profile__description">Name : <span class="profile__description__color">이재원</span></h3>
+          </div>
+          <div class="profile__contents">
+            <h3 class="profile__description">BirthDate : <span class="profile__description__color">1994.11.22</span></h3>
+          </div>
+          <div class="profile__contents">
+            <h3 class="profile__description">Phone : <span class="profile__description__color">010-7741-6605</span></h3>
+          </div>  
+          <div class="profile__contents">
+            <h3 class="profile__description">Email : <span class="profile__description__color">ehrm1122@naver.com</span></h3>
+          </div>    
+        </div>
+      </fieldset>
+      <fieldset class="activities__wrap">
+        <legend align="right"><h2 class="profile__title">My activites👨🏻‍💼</h2></legend>
+        <div class="line__wrap">
+          <div class="line">
+            <div class="line__bar">
+              <span class="line__value" style="left: 12%;"></span>
+              <span class="line__value" style="left: 50%;"></span>
+              <span class="line__value" style="left: 85%;"></span>
+            </div>
+          </div>
+          <div class="line__activities">
+            <h3 class="line__title" style="left: 10%;">인덕대학교<p class="line__description">기계설계과</p><p><small>2013.02~2017.02</small></p></h3>
+            <h3 class="line__title" style="left: 40%;">회사 생활<p class="line__description">반도체 프로브핀<small>(2년)</small></p><p><small>2017.07~2019.06</small></p></h3>
+            <h3 class="line__title" style="left: 67%;">KITA무역아카데미<p class="line__description">Smart Cloud IT</p><p><small>2019.09~2020.08</small></p></h3>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="comment">
+        <legend align="left"><h2 class="profile__title">My Comment📢</h2></legend>
+        <p class="comments">
+          안녕하세요.
+          신입 개발자를 꿈꾸는 이재원입니다.
+          제가 전공과 다른 IT라는 직종을 선택하게 된 이유는 다른 직종보다 더 빠르게 변화하고 있고
+          이 변화 속에 새로운 기술들을 습득하면서 발전할 수 있는 사람이 될 수 있다는 점에서 매력적으로 느껴 선택하게 되었습니다.
+          하지만 실제로 웹 개발을 배우고 직접 코딩을 하면서 처음 배워보는 컴퓨터 언어의 딱딱함에 벽을 느꼈었던 적이 있는 것도
+          사실이지만 마치 큐브처럼 하나의 움직임에 실패를 거듭할 수도 있지만 결국 답은 있다는 것입니다.
+          완성된 큐브 조각을 봤을 때 쾌감을 느끼는 것처럼 문제와 해결을 반복하면서 브라우저에 비칠 때마다 큰 쾌감을 느꼈습니다.
+          예전에는 딱딱하기만 했던 코드가 각자 담고 있는 의미가 있다는 것을 알게 된 후 지금은 즐거움을 느끼고 있습니다.
+          에러에 동요되지 않고, 새로운 것에 두려워하지 않고 다양한 시도를 통해 사용자에게 좋은 개발자가 되고 싶습니다.
+          기회를 주신다면 신입사원이라는 자리에 맞게 성실하게 일하는 믿음직한 인재가 되겠습니다.
+          </p>
+      </fieldset>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="section">   
+      <h1>skills</h1>
+      <div class="skills__bg">
+        <div class="skill">
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/spring Framework.png" alt="spring" class="skills__img">
+            </div>
+            <h2 class="skills__title">Spring Framework<p><small>Spring MVC</small></p></h2>
+          </div>
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/jquery.png" alt="jquery" class="skills__img">
+            </div>
+            <h2 class="skills__title">jQuery</h2>
+          </div>
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/sqldeveloper.png" alt="sqldeveloper" class="skills__img">
+            </div>
+            <h2 class="skills__title">Oracle<p><small>sqldeveloper</small></p></h2>
+          </div>
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/html5.png" alt="html5" class="skills__img">
+            </div>
+            <h2 class="skills__title">Html5</h2>
+          </div>
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/css3.png" alt="css3" class="skills__img">
+            </div>
+            <h2 class="skills__title">CSS3</h2>
+          </div>
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/javascript.png" alt="javascript" class="skills__img">
+            </div>
+            <h2 class="skills__title">Javascript</h2>
+          </div>
+          <div class="skills">
+            <div class="skills__icon">
+              <img src="imgs/logo/bootstrap.png" alt="sqldeveloper" class="skills__img">
+            </div>
+            <h2 class="skills__title">Bootstrap</h2>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- project -->
+  <section id="project" class="section">
+    <div class="section section__container">
+      <h1>My project</h1>
+      <div class="project__categories">
+        <button class="category__btn selected" data-filter="*">
+          All<span class="category__count">4</span></button>
+        <button class="category__btn" data-filter="Individual-project">
+          Individual-project<span class="category__count">3</span></button>
+        <button class="category__btn" data-filter="Team-project">
+          Team-project<span class="category__count">1</span></button>
+      </div>
+      <div class="project__active">
+        <a
+          class="projects"
+          data-link="Individual-project">
+          <img src="imgs/project/project_first/pic_1.JPG" alt="project1" class="project__img">
+          <div class="project__description" data-num="1">
+            <h3>동물병원</h3>
+            <span>첫번째 개인 프로젝트</span>
+          </div>
+        </a>
+        <a
+          class="projects"
+          data-link="Individual-project">
+          <img src="imgs/project/project_two/shopping.JPG" alt="project2" class="project__img">
+          <div class="project__description" data-num="2">
+            <h3>쇼핑</h3>
+            <span>두번째 개인 프로젝트</span>
+          </div>
+        </a>
+        <a
+          class="projects"
+          data-link="Individual-project">
+          <img src="imgs/project/project_three/main.JPG" alt="project3" class="project__img">
+          <div class="project__description" data-num="3">
+            <h3>미니게임</h3>
+            <span>세번째 개인 프로젝트</span>
+          </div>
+        </a>
+        <a
+          class="projects"
+          data-link="Team-project">
+          <img src="imgs/project/team_project/main.JPG" alt="Project4" class="project__img">
+          <div class="project__description" data-num="4">
+            <h3>공자</h3>
+            <span>팀 프로젝트</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <div class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">ehrm1122@naver.com</h2>
+      <div class="contact__link">
+        <a href="https://gtihub.com/ehrm1122" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2021 Jaewon - All rights reserved</p>
+    </div>
+  </section>
+  <button class="arrow__up">
+    <i class="fas fa-chevron-circle-up"></i>
+  </button>
+</body>
+</html>
