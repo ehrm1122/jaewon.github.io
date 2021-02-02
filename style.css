@@ -635,11 +635,9 @@ p {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 420px) {
   :root {
     /* Font size */
-    --font-large: 30px;
-    --font-medium: 18px;
     --font-regular: 14px;
     --font-small: 12px;
     --font-micro: 10px;
@@ -663,19 +661,19 @@ p {
 
   .line__title.one {
     margin-top: 20px;
-    left: 20px;
+    left: 30px;
     top: -50px;
   }
 
   .line__title.two {
     margin-top: 20px;
-    left: 105px;
+    left: 125px;
     top: 50px;
   }
 
   .line__title.three {
     margin-top: 20px;
-    left: 200px;
+    left: 230px;
     top: -50px;
   }
 
@@ -728,5 +726,25 @@ p {
 
   #contact > .section {
     padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .line__title.one {
+    margin-top: 20px;
+    left: 20px;
+    top: -50px;
+  }
+
+  .line__title.two {
+    margin-top: 20px;
+    left: 105px;
+    top: 50px;
+  }
+
+  .line__title.three {
+    margin-top: 20px;
+    left: 200px;
+    top: -50px;
   }
 }
